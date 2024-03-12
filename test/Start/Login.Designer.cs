@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class Form_User
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(452, 149);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Test_3";
-            // 
-            // Form_User
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form_User";
-            this.Text = "Form_User";
-            this.Load += new System.EventHandler(this.Form_User_Load);
+            this.Name = "Login";
+            this.Text = "Login";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
     }
 }

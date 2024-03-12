@@ -53,43 +53,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Employee\Home_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Employee\Home_User.Designer.cs">
+      <DependentUpon>Home_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_HomePage.cs">
+    <Compile Include="Employee\Form_HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_HomePage.Designer.cs">
+    <Compile Include="Employee\Form_HomePage.Designer.cs">
       <DependentUpon>Form_HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_LogOut.cs">
+    <Compile Include="Employee\Form_LogOut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_LogOut.Designer.cs">
+    <Compile Include="Employee\Form_LogOut.Designer.cs">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_User.cs">
+    <Compile Include="Employee\Form_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_User.Designer.cs">
+    <Compile Include="Employee\Form_User.Designer.cs">
       <DependentUpon>Form_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Home_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employer\Home_User.Designer.cs">
+      <DependentUpon>Home_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Home_User.resx">
+      <DependentUpon>Home_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_HomePage.resx">
+    <EmbeddedResource Include="Employee\Form_HomePage.resx">
       <DependentUpon>Form_HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_LogOut.resx">
+    <EmbeddedResource Include="Employee\Form_LogOut.resx">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_User.resx">
+    <EmbeddedResource Include="Employee\Form_User.resx">
       <DependentUpon>Form_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employer\Home_User.resx">
+      <DependentUpon>Home_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,5 +133,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
