@@ -14,7 +14,7 @@ namespace test
     {
         Form_HomePage_Employee HomePage;
         Form_LogOut LogOut;
-        Form_User UserInfo;
+        Form_Employee_Info UserInfo;
         public Home_User()
         {
             InitializeComponent();
@@ -148,7 +148,7 @@ namespace test
         {
             if (UserInfo == null)
             {
-                UserInfo = new Form_User();
+                UserInfo = new Form_Employee_Info();
                 UserInfo.FormClosed += UserInfo_FormClosed;
                 UserInfo.MdiParent = this;
                 UserInfo.Dock = DockStyle.Fill;

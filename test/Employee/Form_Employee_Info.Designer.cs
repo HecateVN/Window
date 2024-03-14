@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class Form_User
+    partial class Form_Employee_Info
     {
         /// <summary>
         /// Required designer variable.
@@ -75,15 +75,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(600, 796);
+            this.panel1.Size = new System.Drawing.Size(408, 796);
             this.panel1.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(600, 0);
+            this.panel2.Location = new System.Drawing.Point(414, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(600, 796);
+            this.panel2.Size = new System.Drawing.Size(786, 796);
             this.panel2.TabIndex = 3;
             // 
             // Form_User

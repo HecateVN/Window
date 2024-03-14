@@ -53,11 +53,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee\Home_User.cs">
+    <Compile Include="Employee\Form_Job_Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Home_User.Designer.cs">
-      <DependentUpon>Home_User.cs</DependentUpon>
+    <Compile Include="Employee\Form_Job_Employee.Designer.cs">
+      <DependentUpon>Form_Job_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\Form_Menu_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\Form_Menu_Employee.Designer.cs">
+      <DependentUpon>Form_Menu_Employee.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee\Form_HomePage_Employee.cs">
       <SubType>Form</SubType>
@@ -71,11 +77,11 @@
     <Compile Include="Employee\Form_LogOut.Designer.cs">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_User.cs">
+    <Compile Include="Employee\Form_Employee_Info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_User.Designer.cs">
-      <DependentUpon>Form_User.cs</DependentUpon>
+    <Compile Include="Employee\Form_Employee_Info.Designer.cs">
+      <DependentUpon>Form_Employee_Info.cs</DependentUpon>
     </Compile>
     <Compile Include="Start\Login.cs">
       <SubType>Form</SubType>
@@ -85,8 +91,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Employee\Home_User.resx">
-      <DependentUpon>Home_User.cs</DependentUpon>
+    <Compile Include="User_Control\Available_Job.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Control\Available_Job.Designer.cs">
+      <DependentUpon>Available_Job.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Employee\Form_Job_Employee.resx">
+      <DependentUpon>Form_Job_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Form_Menu_Employee.resx">
+      <DependentUpon>Form_Menu_Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_HomePage_Employee.resx">
       <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
@@ -94,8 +109,8 @@
     <EmbeddedResource Include="Employee\Form_LogOut.resx">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_User.resx">
-      <DependentUpon>Form_User.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Form_Employee_Info.resx">
+      <DependentUpon>Form_Employee_Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -110,6 +125,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User_Control\Available_Job.resx">
+      <DependentUpon>Available_Job.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

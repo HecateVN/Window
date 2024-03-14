@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace test
+namespace test.User_Control
 {
-    public partial class Form_User : Form
+    public partial class Available_Job : UserControl
     {
-        public Form_User()
+        public Available_Job()
         {
             InitializeComponent();
         }
 
-        private void Form_User_Load(object sender, EventArgs e)
-        {
-            this.ControlBox = false;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void Available_Job_Load(object sender, EventArgs e)
         {
 
         }
