@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class Form_HomePage
+    partial class Form_HomePage_Employee
     {
         /// <summary>
         /// Required designer variable.

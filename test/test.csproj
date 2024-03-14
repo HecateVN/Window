@@ -59,11 +59,11 @@
     <Compile Include="Employee\Home_User.Designer.cs">
       <DependentUpon>Home_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_HomePage.cs">
+    <Compile Include="Employee\Form_HomePage_Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_HomePage.Designer.cs">
-      <DependentUpon>Form_HomePage.cs</DependentUpon>
+    <Compile Include="Employee\Form_HomePage_Employee.Designer.cs">
+      <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee\Form_LogOut.cs">
       <SubType>Form</SubType>
@@ -77,12 +77,6 @@
     <Compile Include="Employee\Form_User.Designer.cs">
       <DependentUpon>Form_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employer\Home_User.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employer\Home_User.Designer.cs">
-      <DependentUpon>Home_User.cs</DependentUpon>
-    </Compile>
     <Compile Include="Start\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,17 +88,14 @@
     <EmbeddedResource Include="Employee\Home_User.resx">
       <DependentUpon>Home_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_HomePage.resx">
-      <DependentUpon>Form_HomePage.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Form_HomePage_Employee.resx">
+      <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_LogOut.resx">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_User.resx">
       <DependentUpon>Form_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Employer\Home_User.resx">
-      <DependentUpon>Home_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -133,6 +124,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Employer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-03-14 090923.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,7 +12,7 @@ namespace test
 {
     public partial class Home_User : Form
     {
-        Form_HomePage HomePage;
+        Form_HomePage_Employee HomePage;
         Form_LogOut LogOut;
         Form_User UserInfo;
         public Home_User()
@@ -103,6 +103,7 @@ namespace test
                 {
                     SideExpand = false;
                     Side_Transition.Stop();
+                    Employee_Picture.BackgroundImage = null;
                 }
             }
             else
@@ -112,6 +113,7 @@ namespace test
                 {
                     SideExpand = true;
                     Side_Transition.Stop();
+                    Employee_Picture.BackgroundImage = test.Properties.Resources.Screenshot_2024_03_14_090923;
                 }
             }
         }
@@ -126,7 +128,7 @@ namespace test
         {
             if (HomePage == null)
             {
-                HomePage = new Form_HomePage();
+                HomePage = new Form_HomePage_Employee();
                 HomePage.FormClosed += HomePage_FormClosed;
                 HomePage.MdiParent = this;
                 HomePage.Show();
@@ -163,6 +165,9 @@ namespace test
             UserInfo = null;
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

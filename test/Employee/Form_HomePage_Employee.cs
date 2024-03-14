@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Form_HomePage : Form
+    public partial class Form_HomePage_Employee : Form
     {
-        public Form_HomePage()
+        public Form_HomePage_Employee()
         {
             InitializeComponent();
         }
