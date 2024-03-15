@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class Form_LogOut
+    partial class Form
     {
         /// <summary>
         /// Required designer variable.

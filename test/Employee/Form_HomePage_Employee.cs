@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Form_HomePage_Employee : Form
+    public partial class Form_HomePage_Employee : System.Windows.Forms.Form
     {
         public Form_HomePage_Employee()
         {

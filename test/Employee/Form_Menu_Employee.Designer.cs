@@ -35,6 +35,7 @@
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.SideBar_Control = new System.Windows.Forms.PictureBox();
             this.SideBar = new System.Windows.Forms.FlowLayoutPanel();
+            this.Employee_Picture = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Btn_UserInfo = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -54,10 +55,10 @@
             this.Btn_LogOut = new System.Windows.Forms.Button();
             this.Sub_Con_Transition = new System.Windows.Forms.Timer(this.components);
             this.Side_Transition = new System.Windows.Forms.Timer(this.components);
-            this.Employee_Picture = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SideBar_Control)).BeginInit();
             this.SideBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -67,7 +68,6 @@
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -79,7 +79,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1243, 51);
+            this.panel1.Size = new System.Drawing.Size(1168, 51);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -109,7 +109,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(1104, 0);
+            this.nightControlBox1.Location = new System.Drawing.Point(1029, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -123,8 +123,8 @@
             this.SideBar_Control.Image = ((System.Drawing.Image)(resources.GetObject("SideBar_Control.Image")));
             this.SideBar_Control.Location = new System.Drawing.Point(9, 4);
             this.SideBar_Control.Name = "SideBar_Control";
-            this.SideBar_Control.Size = new System.Drawing.Size(47, 49);
-            this.SideBar_Control.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.SideBar_Control.Size = new System.Drawing.Size(40, 40);
+            this.SideBar_Control.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SideBar_Control.TabIndex = 1;
             this.SideBar_Control.TabStop = false;
             this.SideBar_Control.Click += new System.EventHandler(this.SideBar_Control_Click);
@@ -143,9 +143,22 @@
             this.SideBar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.SideBar.Location = new System.Drawing.Point(0, 51);
             this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(170, 645);
+            this.SideBar.Size = new System.Drawing.Size(170, 657);
             this.SideBar.TabIndex = 1;
             this.SideBar.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // Employee_Picture
+            // 
+            this.Employee_Picture.BackColor = System.Drawing.Color.Transparent;
+            this.Employee_Picture.BackgroundImage = global::test.Properties.Resources.Screenshot_2024_03_14_090923;
+            this.Employee_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Employee_Picture.Location = new System.Drawing.Point(30, 20);
+            this.Employee_Picture.Margin = new System.Windows.Forms.Padding(30, 20, 3, 20);
+            this.Employee_Picture.Name = "Employee_Picture";
+            this.Employee_Picture.Size = new System.Drawing.Size(100, 95);
+            this.Employee_Picture.TabIndex = 3;
+            this.Employee_Picture.TabStop = false;
+            this.Employee_Picture.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel2
             // 
@@ -369,23 +382,10 @@
             this.Side_Transition.Interval = 10;
             this.Side_Transition.Tick += new System.EventHandler(this.Side_Transition_Tick);
             // 
-            // Employee_Picture
-            // 
-            this.Employee_Picture.BackColor = System.Drawing.Color.Transparent;
-            this.Employee_Picture.BackgroundImage = global::test.Properties.Resources.Screenshot_2024_03_14_090923;
-            this.Employee_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Employee_Picture.Location = new System.Drawing.Point(30, 20);
-            this.Employee_Picture.Margin = new System.Windows.Forms.Padding(30, 20, 3, 20);
-            this.Employee_Picture.Name = "Employee_Picture";
-            this.Employee_Picture.Size = new System.Drawing.Size(100, 95);
-            this.Employee_Picture.TabIndex = 3;
-            this.Employee_Picture.TabStop = false;
-            this.Employee_Picture.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Home_User
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1243, 696);
+            this.ClientSize = new System.Drawing.Size(1168, 708);
             this.Controls.Add(this.SideBar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -398,6 +398,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SideBar_Control)).EndInit();
             this.SideBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -407,7 +408,6 @@
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).EndInit();
             this.ResumeLayout(false);
 
         }

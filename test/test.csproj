@@ -71,11 +71,11 @@
     <Compile Include="Employee\Form_HomePage_Employee.Designer.cs">
       <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_LogOut.cs">
+    <Compile Include="Employee\Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_LogOut.Designer.cs">
-      <DependentUpon>Form_LogOut.cs</DependentUpon>
+    <Compile Include="Employee\Form.Designer.cs">
+      <DependentUpon>Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee\Form_Employee_Info.cs">
       <SubType>Form</SubType>
@@ -106,8 +106,8 @@
     <EmbeddedResource Include="Employee\Form_HomePage_Employee.resx">
       <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_LogOut.resx">
-      <DependentUpon>Form_LogOut.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Form.resx">
+      <DependentUpon>Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_Employee_Info.resx">
       <DependentUpon>Form_Employee_Info.cs</DependentUpon>

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Home_User : Form
+    public partial class Home_User : System.Windows.Forms.Form
     {
         Form_HomePage_Employee HomePage;
-        Form_LogOut LogOut;
+        Form LogOut;
         Form_Employee_Info UserInfo;
         public Home_User()
         {

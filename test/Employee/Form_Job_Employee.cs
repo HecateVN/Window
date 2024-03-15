@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace test.Employee
 {
-    public partial class Form_Job_Employee : Form
+    public partial class Form_Job_Employee : System.Windows.Forms.Form
     {
         public Form_Job_Employee()
         {
@@ -28,6 +28,16 @@ namespace test.Employee
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }

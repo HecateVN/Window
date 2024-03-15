@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Form_LogOut : Form
+    public partial class Form : System.Windows.Forms.Form
     {
-        public Form_LogOut()
+        public Form()
         {
             InitializeComponent();
         }
