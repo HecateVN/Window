@@ -48,7 +48,7 @@
             this.parrotPictureBox1.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
             this.parrotPictureBox1.IsElipse = false;
             this.parrotPictureBox1.IsParallax = false;
-            this.parrotPictureBox1.Location = new System.Drawing.Point(49, 42);
+            this.parrotPictureBox1.Location = new System.Drawing.Point(22, 21);
             this.parrotPictureBox1.Name = "parrotPictureBox1";
             this.parrotPictureBox1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.parrotPictureBox1.Size = new System.Drawing.Size(105, 112);
@@ -56,12 +56,13 @@
             this.parrotPictureBox1.TabIndex = 0;
             this.parrotPictureBox1.Text = "parrotPictureBox1";
             this.parrotPictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.parrotPictureBox1.Click += new System.EventHandler(this.parrotPictureBox1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(55, 181);
+            this.label1.Location = new System.Drawing.Point(28, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 37);
             this.label1.TabIndex = 1;
@@ -86,7 +87,7 @@
             this.panel2.Size = new System.Drawing.Size(786, 796);
             this.panel2.TabIndex = 3;
             // 
-            // Form_User
+            // Form_Employee_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,7 +95,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form_User";
+            this.Name = "Form_Employee_Info";
             this.Text = "Form_User";
             this.Load += new System.EventHandler(this.Form_User_Load);
             this.panel1.ResumeLayout(false);

@@ -26,5 +26,10 @@ namespace test
         {
 
         }
+
+        private void parrotPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
