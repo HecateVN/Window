@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class Login
+    partial class Form_HomePage
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // Login
+            // Form_HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(810, 509);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Login";
-            this.Text = "Login";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Form_HomePage";
+            this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form_HomePage_Load);
             this.ResumeLayout(false);
 
         }

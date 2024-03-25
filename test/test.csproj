@@ -35,8 +35,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="ReaLTaiizor, Version=3.8.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReaLTaiizor.3.8.0.2\lib\net48\ReaLTaiizor.dll</HintPath>
+    <Reference Include="ReaLTaiizor, Version=3.8.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.8.0.1\lib\net48\ReaLTaiizor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,52 +53,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee\Home_User.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Home_User.Designer.cs">
-      <DependentUpon>Home_User.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_HomePage_Employee.cs">
+    <Compile Include="Form_HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_HomePage_Employee.Designer.cs">
-      <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
+    <Compile Include="Form_HomePage.Designer.cs">
+      <DependentUpon>Form_HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_LogOut.cs">
+    <Compile Include="Form_LogOut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_LogOut.Designer.cs">
+    <Compile Include="Form_LogOut.Designer.cs">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form_User.cs">
+    <Compile Include="Form_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_User.Designer.cs">
+    <Compile Include="Form_User.Designer.cs">
       <DependentUpon>Form_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Start\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Start\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Employee\Home_User.resx">
-      <DependentUpon>Home_User.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_HomePage_Employee.resx">
-      <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
+    <EmbeddedResource Include="Form_HomePage.resx">
+      <DependentUpon>Form_HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_LogOut.resx">
+    <EmbeddedResource Include="Form_LogOut.resx">
       <DependentUpon>Form_LogOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form_User.resx">
+    <EmbeddedResource Include="Form_User.resx">
       <DependentUpon>Form_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Start\Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,15 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Employer\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2024-03-14 090923.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

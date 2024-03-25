@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Home_User : Form
+    public partial class Form1 : Form
     {
-        Form_HomePage_Employee HomePage;
+        Form_HomePage HomePage;
         Form_LogOut LogOut;
         Form_User UserInfo;
-        public Home_User()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -103,7 +103,6 @@ namespace test
                 {
                     SideExpand = false;
                     Side_Transition.Stop();
-                    Employee_Picture.BackgroundImage = null;
                 }
             }
             else
@@ -113,7 +112,6 @@ namespace test
                 {
                     SideExpand = true;
                     Side_Transition.Stop();
-                    Employee_Picture.BackgroundImage = test.Properties.Resources.Screenshot_2024_03_14_090923;
                 }
             }
         }
@@ -128,7 +126,7 @@ namespace test
         {
             if (HomePage == null)
             {
-                HomePage = new Form_HomePage_Employee();
+                HomePage = new Form_HomePage();
                 HomePage.FormClosed += HomePage_FormClosed;
                 HomePage.MdiParent = this;
                 HomePage.Show();
@@ -165,9 +163,6 @@ namespace test
             UserInfo = null;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
