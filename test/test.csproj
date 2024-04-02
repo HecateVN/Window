@@ -71,12 +71,6 @@
     <Compile Include="Employee\Form_HomePage_Employee.Designer.cs">
       <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employee\Form.Designer.cs">
-      <DependentUpon>Form.cs</DependentUpon>
-    </Compile>
     <Compile Include="Employee\Form_Employee_Info.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +88,24 @@
     </Compile>
     <Compile Include="Employee\User_Control\Job_Detail.Designer.cs">
       <DependentUpon>Job_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
     <Compile Include="Start\Start.cs">
       <SubType>Form</SubType>
@@ -118,9 +130,6 @@
     <EmbeddedResource Include="Employee\Form_HomePage_Employee.resx">
       <DependentUpon>Form_HomePage_Employee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form.resx">
-      <DependentUpon>Form.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_Employee_Info.resx">
       <DependentUpon>Form_Employee_Info.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +138,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\User_Control\Job_Detail.resx">
       <DependentUpon>Job_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start\Start.resx">
       <DependentUpon>Start.cs</DependentUpon>

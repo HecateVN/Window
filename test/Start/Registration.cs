@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace test
+namespace test.Start
 {
-    public partial class Form : System.Windows.Forms.Form
+    public partial class Registration : Form
     {
-        public Form()
+        public Registration()
         {
             InitializeComponent();
         }
 
-        private void Form_LogOut_Load(object sender, EventArgs e)
+        private void Registration_Load(object sender, EventArgs e)
         {
-            this.ControlBox = false;
+
         }
     }
 }

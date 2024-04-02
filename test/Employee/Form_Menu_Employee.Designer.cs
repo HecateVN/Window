@@ -72,7 +72,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.nightControlBox1);
             this.panel1.Controls.Add(this.SideBar_Control);
@@ -131,7 +131,7 @@
             // 
             // SideBar
             // 
-            this.SideBar.BackColor = System.Drawing.Color.Silver;
+            this.SideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.SideBar.Controls.Add(this.Employee_Picture);
             this.SideBar.Controls.Add(this.panel2);
             this.SideBar.Controls.Add(this.panel3);
