@@ -22,5 +22,26 @@ namespace test.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("(localdb)\\mssqllocaldb  (PDH\\Hieu (78))")]
+        public string cnnStr {
+            get {
+                return ((string)(this["cnnStr"]));
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string z {
+            get {
+                return ((string)(this["z"]));
+            }
+            set {
+                this["z"] = value;
+            }
+        }
     }
 }

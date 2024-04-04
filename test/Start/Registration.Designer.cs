@@ -43,6 +43,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -63,6 +64,7 @@
             // 
             // dungeonHeaderLabel2
             // 
+            this.dungeonHeaderLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel2.AutoSize = true;
             this.dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -75,6 +77,7 @@
             // 
             // dungeonTextBox1
             // 
+            this.dungeonTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
@@ -92,6 +95,7 @@
             // 
             // dungeonHeaderLabel1
             // 
+            this.dungeonHeaderLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel1.AutoSize = true;
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
@@ -104,6 +108,7 @@
             // 
             // dungeonHeaderLabel4
             // 
+            this.dungeonHeaderLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel4.AutoSize = true;
             this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -116,6 +121,7 @@
             // 
             // dungeonTextBox3
             // 
+            this.dungeonTextBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonTextBox3.BackColor = System.Drawing.Color.Transparent;
             this.dungeonTextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.dungeonTextBox3.EdgeColor = System.Drawing.Color.White;
@@ -133,6 +139,7 @@
             // 
             // dungeonHeaderLabel5
             // 
+            this.dungeonHeaderLabel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel5.AutoSize = true;
             this.dungeonHeaderLabel5.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -145,6 +152,7 @@
             // 
             // dungeonTextBox4
             // 
+            this.dungeonTextBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonTextBox4.BackColor = System.Drawing.Color.Transparent;
             this.dungeonTextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.dungeonTextBox4.EdgeColor = System.Drawing.Color.White;
@@ -162,6 +170,7 @@
             // 
             // dungeonHeaderLabel6
             // 
+            this.dungeonHeaderLabel6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel6.AutoSize = true;
             this.dungeonHeaderLabel6.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -174,6 +183,7 @@
             // 
             // aloneComboBox1
             // 
+            this.aloneComboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.aloneComboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.aloneComboBox1.DisplayMember = "Gender";
             this.aloneComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
@@ -195,9 +205,12 @@
             // 
             // materialCheckBox1
             // 
+            this.materialCheckBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialCheckBox1.AutoSize = true;
+            this.materialCheckBox1.BackColor = System.Drawing.Color.Black;
             this.materialCheckBox1.Depth = 0;
             this.materialCheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialCheckBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.materialCheckBox1.Location = new System.Drawing.Point(47, 414);
             this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
@@ -209,7 +222,7 @@
             this.materialCheckBox1.TabIndex = 20;
             this.materialCheckBox1.Text = "I agree to the Terms and Conditions";
             this.materialCheckBox1.UseAccentColor = false;
-            this.materialCheckBox1.UseVisualStyleBackColor = true;
+            this.materialCheckBox1.UseVisualStyleBackColor = false;
             // 
             // Registration
             // 

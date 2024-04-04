@@ -38,6 +38,7 @@
             // 
             // dungeonHeaderLabel1
             // 
+            this.dungeonHeaderLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel1.AutoSize = true;
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
@@ -50,6 +51,7 @@
             // 
             // dungeonTextBox1
             // 
+            this.dungeonTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
@@ -60,13 +62,15 @@
             this.dungeonTextBox1.Multiline = false;
             this.dungeonTextBox1.Name = "dungeonTextBox1";
             this.dungeonTextBox1.ReadOnly = false;
-            this.dungeonTextBox1.Size = new System.Drawing.Size(225, 33);
+            this.dungeonTextBox1.Size = new System.Drawing.Size(225, 37);
             this.dungeonTextBox1.TabIndex = 2;
             this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox1.UseSystemPasswordChar = false;
+            this.dungeonTextBox1.TextChanged += new System.EventHandler(this.dungeonTextBox1_TextChanged);
             // 
             // dungeonTextBox2
             // 
+            this.dungeonTextBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonTextBox2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.dungeonTextBox2.EdgeColor = System.Drawing.Color.White;
@@ -77,13 +81,14 @@
             this.dungeonTextBox2.Multiline = false;
             this.dungeonTextBox2.Name = "dungeonTextBox2";
             this.dungeonTextBox2.ReadOnly = false;
-            this.dungeonTextBox2.Size = new System.Drawing.Size(225, 33);
+            this.dungeonTextBox2.Size = new System.Drawing.Size(225, 37);
             this.dungeonTextBox2.TabIndex = 3;
             this.dungeonTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox2.UseSystemPasswordChar = false;
             // 
             // dungeonHeaderLabel2
             // 
+            this.dungeonHeaderLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel2.AutoSize = true;
             this.dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -96,6 +101,7 @@
             // 
             // dungeonHeaderLabel3
             // 
+            this.dungeonHeaderLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dungeonHeaderLabel3.AutoSize = true;
             this.dungeonHeaderLabel3.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
@@ -108,6 +114,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -125,6 +132,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // login
             // 
@@ -139,6 +147,7 @@
             this.Controls.Add(this.dungeonTextBox2);
             this.Controls.Add(this.dungeonTextBox1);
             this.Controls.Add(this.dungeonHeaderLabel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "login";
             this.Text = "login";
             this.ResumeLayout(false);
