@@ -39,6 +39,9 @@
             this.dungeonHeaderLabel6 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.aloneComboBox1 = new ReaLTaiizor.Controls.AloneComboBox();
             this.materialCheckBox1 = new ReaLTaiizor.Controls.MaterialCheckBox();
+            this.airRadioButton2 = new ReaLTaiizor.Controls.AirRadioButton();
+            this.dungeonHeaderLabel3 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
+            this.airRadioButton1 = new ReaLTaiizor.Controls.AirRadioButton();
             this.SuspendLayout();
             // 
             // button1
@@ -53,7 +56,7 @@
             this.button1.Image = null;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button1.Location = new System.Drawing.Point(97, 486);
+            this.button1.Location = new System.Drawing.Point(99, 516);
             this.button1.Name = "button1";
             this.button1.PressedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -69,7 +72,7 @@
             this.dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel2.Location = new System.Drawing.Point(6, 155);
+            this.dungeonHeaderLabel2.Location = new System.Drawing.Point(8, 185);
             this.dungeonHeaderLabel2.Name = "dungeonHeaderLabel2";
             this.dungeonHeaderLabel2.Size = new System.Drawing.Size(115, 26);
             this.dungeonHeaderLabel2.TabIndex = 10;
@@ -83,7 +86,7 @@
             this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
             this.dungeonTextBox1.Font = new System.Drawing.Font("Tahoma", 13F);
             this.dungeonTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox1.Location = new System.Drawing.Point(137, 152);
+            this.dungeonTextBox1.Location = new System.Drawing.Point(139, 182);
             this.dungeonTextBox1.MaxLength = 32767;
             this.dungeonTextBox1.Multiline = false;
             this.dungeonTextBox1.Name = "dungeonTextBox1";
@@ -113,7 +116,7 @@
             this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(6, 222);
+            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(8, 252);
             this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
             this.dungeonHeaderLabel4.Size = new System.Drawing.Size(73, 26);
             this.dungeonHeaderLabel4.TabIndex = 14;
@@ -127,7 +130,7 @@
             this.dungeonTextBox3.EdgeColor = System.Drawing.Color.White;
             this.dungeonTextBox3.Font = new System.Drawing.Font("Tahoma", 13F);
             this.dungeonTextBox3.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox3.Location = new System.Drawing.Point(137, 218);
+            this.dungeonTextBox3.Location = new System.Drawing.Point(139, 248);
             this.dungeonTextBox3.MaxLength = 32767;
             this.dungeonTextBox3.Multiline = false;
             this.dungeonTextBox3.Name = "dungeonTextBox3";
@@ -144,7 +147,7 @@
             this.dungeonHeaderLabel5.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(6, 290);
+            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(8, 320);
             this.dungeonHeaderLabel5.Name = "dungeonHeaderLabel5";
             this.dungeonHeaderLabel5.Size = new System.Drawing.Size(89, 26);
             this.dungeonHeaderLabel5.TabIndex = 16;
@@ -158,7 +161,7 @@
             this.dungeonTextBox4.EdgeColor = System.Drawing.Color.White;
             this.dungeonTextBox4.Font = new System.Drawing.Font("Tahoma", 13F);
             this.dungeonTextBox4.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox4.Location = new System.Drawing.Point(137, 351);
+            this.dungeonTextBox4.Location = new System.Drawing.Point(139, 381);
             this.dungeonTextBox4.MaxLength = 32767;
             this.dungeonTextBox4.Multiline = false;
             this.dungeonTextBox4.Name = "dungeonTextBox4";
@@ -175,7 +178,7 @@
             this.dungeonHeaderLabel6.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel6.Location = new System.Drawing.Point(6, 357);
+            this.dungeonHeaderLabel6.Location = new System.Drawing.Point(8, 387);
             this.dungeonHeaderLabel6.Name = "dungeonHeaderLabel6";
             this.dungeonHeaderLabel6.Size = new System.Drawing.Size(110, 26);
             this.dungeonHeaderLabel6.TabIndex = 17;
@@ -195,7 +198,7 @@
             this.aloneComboBox1.Items.AddRange(new object[] {
             "Female",
             "Male"});
-            this.aloneComboBox1.Location = new System.Drawing.Point(137, 286);
+            this.aloneComboBox1.Location = new System.Drawing.Point(139, 316);
             this.aloneComboBox1.Name = "aloneComboBox1";
             this.aloneComboBox1.Size = new System.Drawing.Size(225, 36);
             this.aloneComboBox1.Sorted = true;
@@ -211,7 +214,7 @@
             this.materialCheckBox1.Depth = 0;
             this.materialCheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialCheckBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.materialCheckBox1.Location = new System.Drawing.Point(47, 414);
+            this.materialCheckBox1.Location = new System.Drawing.Point(49, 444);
             this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckBox1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -224,11 +227,61 @@
             this.materialCheckBox1.UseAccentColor = false;
             this.materialCheckBox1.UseVisualStyleBackColor = false;
             // 
+            // airRadioButton2
+            // 
+            this.airRadioButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.airRadioButton2.Checked = false;
+            this.airRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.airRadioButton2.Customization = "PDw8/+3t7f/m5ub/p6en/2RkZP8=";
+            this.airRadioButton2.Field = 16;
+            this.airRadioButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.airRadioButton2.Image = null;
+            this.airRadioButton2.Location = new System.Drawing.Point(258, 128);
+            this.airRadioButton2.Name = "airRadioButton2";
+            this.airRadioButton2.NoRounding = false;
+            this.airRadioButton2.Size = new System.Drawing.Size(122, 16);
+            this.airRadioButton2.TabIndex = 23;
+            this.airRadioButton2.Text = "Employer";
+            this.airRadioButton2.Transparent = false;
+            // 
+            // dungeonHeaderLabel3
+            // 
+            this.dungeonHeaderLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dungeonHeaderLabel3.AutoSize = true;
+            this.dungeonHeaderLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonHeaderLabel3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.dungeonHeaderLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
+            this.dungeonHeaderLabel3.Location = new System.Drawing.Point(8, 119);
+            this.dungeonHeaderLabel3.Name = "dungeonHeaderLabel3";
+            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(59, 26);
+            this.dungeonHeaderLabel3.TabIndex = 22;
+            this.dungeonHeaderLabel3.Text = "Role";
+            // 
+            // airRadioButton1
+            // 
+            this.airRadioButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.airRadioButton1.Checked = false;
+            this.airRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.airRadioButton1.Customization = "PDw8/+3t7f/m5ub/p6en/2RkZP8=";
+            this.airRadioButton1.Field = 16;
+            this.airRadioButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.airRadioButton1.Image = null;
+            this.airRadioButton1.Location = new System.Drawing.Point(139, 128);
+            this.airRadioButton1.Name = "airRadioButton1";
+            this.airRadioButton1.NoRounding = false;
+            this.airRadioButton1.Size = new System.Drawing.Size(122, 16);
+            this.airRadioButton1.TabIndex = 21;
+            this.airRadioButton1.Text = "Employee";
+            this.airRadioButton1.Transparent = false;
+            // 
             // Registration
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(380, 583);
+            this.Controls.Add(this.airRadioButton2);
+            this.Controls.Add(this.dungeonHeaderLabel3);
+            this.Controls.Add(this.airRadioButton1);
             this.Controls.Add(this.materialCheckBox1);
             this.Controls.Add(this.aloneComboBox1);
             this.Controls.Add(this.dungeonHeaderLabel6);
@@ -262,5 +315,8 @@
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel6;
         private ReaLTaiizor.Controls.AloneComboBox aloneComboBox1;
         private ReaLTaiizor.Controls.MaterialCheckBox materialCheckBox1;
+        private ReaLTaiizor.Controls.AirRadioButton airRadioButton2;
+        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel3;
+        private ReaLTaiizor.Controls.AirRadioButton airRadioButton1;
     }
 }

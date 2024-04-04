@@ -24,7 +24,18 @@ namespace test
 
         private void Start_App_Load(object sender, EventArgs e)
         {
-
+            if (Btn_Login == null)
+            {
+                Btn_Login = new login();
+                Btn_Login.FormClosed += Login_FormClosed;
+                Btn_Login.MdiParent = this;
+                Btn_Login.Dock = DockStyle.Fill;
+                Btn_Login.Show();
+            }
+            else
+            {
+                Btn_Login.Activate();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

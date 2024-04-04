@@ -34,6 +34,10 @@
             this.dungeonHeaderLabel2 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.dungeonHeaderLabel3 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.button1 = new ReaLTaiizor.Controls.Button();
+            this.Incorrect = new ReaLTaiizor.Controls.DungeonLabel();
+            this.airRadioButton1 = new ReaLTaiizor.Controls.AirRadioButton();
+            this.dungeonHeaderLabel4 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
+            this.airRadioButton2 = new ReaLTaiizor.Controls.AirRadioButton();
             this.SuspendLayout();
             // 
             // dungeonHeaderLabel1
@@ -43,7 +47,7 @@
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(131, 89);
+            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(131, 43);
             this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
             this.dungeonHeaderLabel1.Size = new System.Drawing.Size(118, 37);
             this.dungeonHeaderLabel1.TabIndex = 1;
@@ -134,6 +138,68 @@
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Incorrect
+            // 
+            this.Incorrect.AutoSize = true;
+            this.Incorrect.BackColor = System.Drawing.Color.Transparent;
+            this.Incorrect.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.Incorrect.ForeColor = System.Drawing.Color.Red;
+            this.Incorrect.Location = new System.Drawing.Point(52, 383);
+            this.Incorrect.Name = "Incorrect";
+            this.Incorrect.Size = new System.Drawing.Size(292, 25);
+            this.Incorrect.TabIndex = 7;
+            this.Incorrect.Text = "*Incorrect Username or Password";
+            this.Incorrect.Visible = false;
+            this.Incorrect.Click += new System.EventHandler(this.dungeonLabel1_Click);
+            // 
+            // airRadioButton1
+            // 
+            this.airRadioButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.airRadioButton1.Checked = false;
+            this.airRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.airRadioButton1.Customization = "PDw8/+3t7f/m5ub/p6en/2RkZP8=";
+            this.airRadioButton1.Field = 16;
+            this.airRadioButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.airRadioButton1.Image = null;
+            this.airRadioButton1.Location = new System.Drawing.Point(130, 171);
+            this.airRadioButton1.Name = "airRadioButton1";
+            this.airRadioButton1.NoRounding = false;
+            this.airRadioButton1.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton1.TabIndex = 8;
+            this.airRadioButton1.Text = "Employee";
+            this.airRadioButton1.Transparent = false;
+            this.airRadioButton1.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton1_CheckedChanged);
+            // 
+            // dungeonHeaderLabel4
+            // 
+            this.dungeonHeaderLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dungeonHeaderLabel4.AutoSize = true;
+            this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
+            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(5, 162);
+            this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
+            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(59, 26);
+            this.dungeonHeaderLabel4.TabIndex = 9;
+            this.dungeonHeaderLabel4.Text = "Role";
+            // 
+            // airRadioButton2
+            // 
+            this.airRadioButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.airRadioButton2.Checked = false;
+            this.airRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.airRadioButton2.Customization = "PDw8/+3t7f/m5ub/p6en/2RkZP8=";
+            this.airRadioButton2.Field = 16;
+            this.airRadioButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.airRadioButton2.Image = null;
+            this.airRadioButton2.Location = new System.Drawing.Point(258, 171);
+            this.airRadioButton2.Name = "airRadioButton2";
+            this.airRadioButton2.NoRounding = false;
+            this.airRadioButton2.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton2.TabIndex = 10;
+            this.airRadioButton2.Text = "Employer";
+            this.airRadioButton2.Transparent = false;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -141,6 +207,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(380, 583);
             this.ControlBox = false;
+            this.Controls.Add(this.airRadioButton2);
+            this.Controls.Add(this.dungeonHeaderLabel4);
+            this.Controls.Add(this.airRadioButton1);
+            this.Controls.Add(this.Incorrect);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dungeonHeaderLabel3);
             this.Controls.Add(this.dungeonHeaderLabel2);
@@ -163,5 +233,9 @@
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel2;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel3;
         private ReaLTaiizor.Controls.Button button1;
+        private ReaLTaiizor.Controls.DungeonLabel Incorrect;
+        private ReaLTaiizor.Controls.AirRadioButton airRadioButton1;
+        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel4;
+        private ReaLTaiizor.Controls.AirRadioButton airRadioButton2;
     }
 }

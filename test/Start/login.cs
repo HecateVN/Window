@@ -31,5 +31,15 @@ namespace test.Start
             this.Close();
             employee_menu.Show();
         }
+
+        private void dungeonLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void airRadioButton1_CheckedChanged(object sender)
+        {
+
+        }
     }
 }

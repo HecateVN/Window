@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home_User));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Username = new System.Windows.Forms.Label();
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.SideBar_Control = new System.Windows.Forms.PictureBox();
             this.SideBar = new System.Windows.Forms.FlowLayoutPanel();
@@ -55,7 +55,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Username);
             this.panel1.Controls.Add(this.nightControlBox1);
             this.panel1.Controls.Add(this.SideBar_Control);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -65,16 +65,16 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label1
+            // Username
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(72, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 37);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "User";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Username.AutoSize = true;
+            this.Username.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username.Location = new System.Drawing.Point(72, 8);
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(84, 37);
+            this.Username.TabIndex = 2;
+            this.Username.Text = "User";
+            this.Username.Click += new System.EventHandler(this.label1_Click);
             // 
             // nightControlBox1
             // 
@@ -253,7 +253,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox SideBar_Control;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Username;
         private ReaLTaiizor.Controls.NightControlBox nightControlBox1;
         private System.Windows.Forms.FlowLayoutPanel SideBar;
         private System.Windows.Forms.Button Btn_UserInfo;
