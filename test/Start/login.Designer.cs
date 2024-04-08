@@ -47,9 +47,10 @@
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(131, 43);
+            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(98, 35);
+            this.dungeonHeaderLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
-            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(118, 37);
+            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(97, 31);
             this.dungeonHeaderLabel1.TabIndex = 1;
             this.dungeonHeaderLabel1.Text = "Sign In";
             // 
@@ -61,12 +62,13 @@
             this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
             this.dungeonTextBox1.Font = new System.Drawing.Font("Tahoma", 13F);
             this.dungeonTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox1.Location = new System.Drawing.Point(136, 234);
+            this.dungeonTextBox1.Location = new System.Drawing.Point(102, 190);
+            this.dungeonTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dungeonTextBox1.MaxLength = 32767;
             this.dungeonTextBox1.Multiline = false;
             this.dungeonTextBox1.Name = "dungeonTextBox1";
             this.dungeonTextBox1.ReadOnly = false;
-            this.dungeonTextBox1.Size = new System.Drawing.Size(225, 37);
+            this.dungeonTextBox1.Size = new System.Drawing.Size(169, 31);
             this.dungeonTextBox1.TabIndex = 2;
             this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox1.UseSystemPasswordChar = false;
@@ -80,12 +82,13 @@
             this.dungeonTextBox2.EdgeColor = System.Drawing.Color.White;
             this.dungeonTextBox2.Font = new System.Drawing.Font("Tahoma", 13F);
             this.dungeonTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox2.Location = new System.Drawing.Point(136, 324);
+            this.dungeonTextBox2.Location = new System.Drawing.Point(102, 263);
+            this.dungeonTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dungeonTextBox2.MaxLength = 32767;
             this.dungeonTextBox2.Multiline = false;
             this.dungeonTextBox2.Name = "dungeonTextBox2";
             this.dungeonTextBox2.ReadOnly = false;
-            this.dungeonTextBox2.Size = new System.Drawing.Size(225, 37);
+            this.dungeonTextBox2.Size = new System.Drawing.Size(169, 31);
             this.dungeonTextBox2.TabIndex = 3;
             this.dungeonTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox2.UseSystemPasswordChar = false;
@@ -97,9 +100,10 @@
             this.dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel2.Location = new System.Drawing.Point(5, 237);
+            this.dungeonHeaderLabel2.Location = new System.Drawing.Point(4, 193);
+            this.dungeonHeaderLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dungeonHeaderLabel2.Name = "dungeonHeaderLabel2";
-            this.dungeonHeaderLabel2.Size = new System.Drawing.Size(115, 26);
+            this.dungeonHeaderLabel2.Size = new System.Drawing.Size(92, 22);
             this.dungeonHeaderLabel2.TabIndex = 4;
             this.dungeonHeaderLabel2.Text = "Username";
             // 
@@ -110,9 +114,10 @@
             this.dungeonHeaderLabel3.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel3.Location = new System.Drawing.Point(5, 327);
+            this.dungeonHeaderLabel3.Location = new System.Drawing.Point(4, 266);
+            this.dungeonHeaderLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dungeonHeaderLabel3.Name = "dungeonHeaderLabel3";
-            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(110, 26);
+            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(90, 22);
             this.dungeonHeaderLabel3.TabIndex = 5;
             this.dungeonHeaderLabel3.Text = "Password";
             // 
@@ -128,11 +133,12 @@
             this.button1.Image = null;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.button1.Location = new System.Drawing.Point(130, 437);
+            this.button1.Location = new System.Drawing.Point(98, 355);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.PressedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.button1.Size = new System.Drawing.Size(120, 40);
+            this.button1.Size = new System.Drawing.Size(90, 32);
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -144,9 +150,10 @@
             this.Incorrect.BackColor = System.Drawing.Color.Transparent;
             this.Incorrect.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.Incorrect.ForeColor = System.Drawing.Color.Red;
-            this.Incorrect.Location = new System.Drawing.Point(52, 383);
+            this.Incorrect.Location = new System.Drawing.Point(39, 311);
+            this.Incorrect.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Incorrect.Name = "Incorrect";
-            this.Incorrect.Size = new System.Drawing.Size(292, 25);
+            this.Incorrect.Size = new System.Drawing.Size(226, 20);
             this.Incorrect.TabIndex = 7;
             this.Incorrect.Text = "*Incorrect Username or Password";
             this.Incorrect.Visible = false;
@@ -161,10 +168,11 @@
             this.airRadioButton1.Field = 16;
             this.airRadioButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.airRadioButton1.Image = null;
-            this.airRadioButton1.Location = new System.Drawing.Point(130, 171);
+            this.airRadioButton1.Location = new System.Drawing.Point(98, 139);
+            this.airRadioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.airRadioButton1.Name = "airRadioButton1";
             this.airRadioButton1.NoRounding = false;
-            this.airRadioButton1.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton1.Size = new System.Drawing.Size(92, 16);
             this.airRadioButton1.TabIndex = 8;
             this.airRadioButton1.Text = "Employee";
             this.airRadioButton1.Transparent = false;
@@ -177,9 +185,10 @@
             this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
             this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(5, 162);
+            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(4, 132);
+            this.dungeonHeaderLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
-            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(59, 26);
+            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(48, 22);
             this.dungeonHeaderLabel4.TabIndex = 9;
             this.dungeonHeaderLabel4.Text = "Role";
             // 
@@ -192,20 +201,22 @@
             this.airRadioButton2.Field = 16;
             this.airRadioButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.airRadioButton2.Image = null;
-            this.airRadioButton2.Location = new System.Drawing.Point(258, 171);
+            this.airRadioButton2.Location = new System.Drawing.Point(194, 139);
+            this.airRadioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.airRadioButton2.Name = "airRadioButton2";
             this.airRadioButton2.NoRounding = false;
-            this.airRadioButton2.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton2.Size = new System.Drawing.Size(92, 16);
             this.airRadioButton2.TabIndex = 10;
             this.airRadioButton2.Text = "Employer";
             this.airRadioButton2.Transparent = false;
+            this.airRadioButton2.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton2_CheckedChanged);
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(380, 583);
+            this.ClientSize = new System.Drawing.Size(285, 474);
             this.ControlBox = false;
             this.Controls.Add(this.airRadioButton2);
             this.Controls.Add(this.dungeonHeaderLabel4);
@@ -218,8 +229,10 @@
             this.Controls.Add(this.dungeonTextBox1);
             this.Controls.Add(this.dungeonHeaderLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "login";
             this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

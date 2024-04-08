@@ -105,9 +105,9 @@
             this.dungeonLinkLabel1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(181)))), ((int)(((byte)(217)))));
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(113, 457);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(127, 459);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
-            this.dungeonLinkLabel1.Size = new System.Drawing.Size(155, 22);
+            this.dungeonLinkLabel1.Size = new System.Drawing.Size(120, 17);
             this.dungeonLinkLabel1.TabIndex = 4;
             this.dungeonLinkLabel1.TabStop = true;
             this.dungeonLinkLabel1.Text = "Forgot Password";

@@ -35,8 +35,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="ReaLTaiizor, Version=3.8.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReaLTaiizor.3.8.0.1\lib\net48\ReaLTaiizor.dll</HintPath>
+    <Reference Include="ReaLTaiizor, Version=3.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.8.0\lib\net48\ReaLTaiizor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,6 +86,7 @@
     <Compile Include="Employee\User_Control\Job_Detail.Designer.cs">
       <DependentUpon>Job_Detail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\DB.cs" />
     <Compile Include="Start\ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>

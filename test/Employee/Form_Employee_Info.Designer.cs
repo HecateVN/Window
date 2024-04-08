@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.parrotPictureBox1 = new ReaLTaiizor.Controls.ParrotPictureBox();
+           
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
