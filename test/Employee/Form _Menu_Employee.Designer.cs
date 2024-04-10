@@ -35,7 +35,6 @@
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.SideBar_Control = new System.Windows.Forms.PictureBox();
             this.SideBar = new System.Windows.Forms.FlowLayoutPanel();
-            this.Employee_Picture = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Btn_UserInfo = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -46,7 +45,6 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SideBar_Control)).BeginInit();
             this.SideBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -114,7 +112,6 @@
             // SideBar
             // 
             this.SideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
-            this.SideBar.Controls.Add(this.Employee_Picture);
             this.SideBar.Controls.Add(this.panel2);
             this.SideBar.Controls.Add(this.panel7);
             this.SideBar.Controls.Add(this.panel8);
@@ -126,26 +123,13 @@
             this.SideBar.TabIndex = 1;
             this.SideBar.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // Employee_Picture
-            // 
-            this.Employee_Picture.BackColor = System.Drawing.Color.Transparent;
-            this.Employee_Picture.BackgroundImage = global::test.Properties.Resources.Screenshot_2024_03_14_090923;
-            this.Employee_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Employee_Picture.Location = new System.Drawing.Point(30, 20);
-            this.Employee_Picture.Margin = new System.Windows.Forms.Padding(30, 20, 3, 90);
-            this.Employee_Picture.Name = "Employee_Picture";
-            this.Employee_Picture.Size = new System.Drawing.Size(100, 95);
-            this.Employee_Picture.TabIndex = 3;
-            this.Employee_Picture.TabStop = false;
-            this.Employee_Picture.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.Btn_UserInfo);
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(0, 208);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 40);
+            this.panel2.Location = new System.Drawing.Point(0, 40);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0, 40, 3, 40);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(169, 47);
             this.panel2.TabIndex = 3;
@@ -172,8 +156,8 @@
             // 
             this.panel7.Controls.Add(this.button6);
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(0, 298);
-            this.panel7.Margin = new System.Windows.Forms.Padding(0, 3, 3, 40);
+            this.panel7.Location = new System.Drawing.Point(0, 167);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0, 40, 3, 40);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(169, 47);
             this.panel7.TabIndex = 5;
@@ -198,8 +182,8 @@
             // 
             this.panel8.Controls.Add(this.Btn_LogOut);
             this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(0, 388);
-            this.panel8.Margin = new System.Windows.Forms.Padding(0, 3, 3, 40);
+            this.panel8.Location = new System.Drawing.Point(0, 294);
+            this.panel8.Margin = new System.Windows.Forms.Padding(0, 40, 3, 40);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(169, 47);
             this.panel8.TabIndex = 5;
@@ -241,7 +225,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SideBar_Control)).EndInit();
             this.SideBar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Employee_Picture)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
@@ -263,7 +246,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Timer Side_Transition;
-        private System.Windows.Forms.PictureBox Employee_Picture;
     }
 }
 

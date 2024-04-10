@@ -39,7 +39,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
+            this.panel1.BackColor = System.Drawing.Color.Linen;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.dungeonLinkLabel1);
@@ -97,7 +97,7 @@
             // dungeonLinkLabel1
             // 
             this.dungeonLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.dungeonLinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dungeonLinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.dungeonLinkLabel1.AutoSize = true;
             this.dungeonLinkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLinkLabel1.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(200)))), ((int)(((byte)(207)))));
@@ -105,7 +105,7 @@
             this.dungeonLinkLabel1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(181)))), ((int)(((byte)(217)))));
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(113, 457);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(132, 443);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
             this.dungeonLinkLabel1.Size = new System.Drawing.Size(155, 22);
             this.dungeonLinkLabel1.TabIndex = 4;
@@ -113,6 +113,7 @@
             this.dungeonLinkLabel1.Text = "Forgot Password";
             this.dungeonLinkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dungeonLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.dungeonLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dungeonLinkLabel1_LinkClicked);
             // 
             // parrotPictureBox1
             // 

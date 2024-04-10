@@ -164,7 +164,7 @@
             this.airRadioButton1.Location = new System.Drawing.Point(130, 171);
             this.airRadioButton1.Name = "airRadioButton1";
             this.airRadioButton1.NoRounding = false;
-            this.airRadioButton1.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton1.Size = new System.Drawing.Size(122, 16);
             this.airRadioButton1.TabIndex = 8;
             this.airRadioButton1.Text = "Employee";
             this.airRadioButton1.Transparent = false;
@@ -195,7 +195,7 @@
             this.airRadioButton2.Location = new System.Drawing.Point(258, 171);
             this.airRadioButton2.Name = "airRadioButton2";
             this.airRadioButton2.NoRounding = false;
-            this.airRadioButton2.Size = new System.Drawing.Size(122, 17);
+            this.airRadioButton2.Size = new System.Drawing.Size(122, 16);
             this.airRadioButton2.TabIndex = 10;
             this.airRadioButton2.Text = "Employer";
             this.airRadioButton2.Transparent = false;
@@ -204,7 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(380, 583);
             this.ControlBox = false;
             this.Controls.Add(this.airRadioButton2);
@@ -220,6 +220,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "login";
             this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

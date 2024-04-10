@@ -28,12 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.parrotPictureBox1 = new ReaLTaiizor.Controls.ParrotPictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.parrotPictureBox1 = new ReaLTaiizor.Controls.ParrotPictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.dungeonLabel3 = new ReaLTaiizor.Controls.DungeonLabel();
+            this.dungeonLabel2 = new ReaLTaiizor.Controls.DungeonLabel();
+            this.dungeonLabel1 = new ReaLTaiizor.Controls.DungeonLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Linen;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(385, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(783, 708);
+            this.panel2.TabIndex = 3;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // parrotPictureBox1
             // 
@@ -58,40 +70,60 @@
             this.parrotPictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.parrotPictureBox1.Click += new System.EventHandler(this.parrotPictureBox1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(28, 152);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Linen;
+            this.panel1.Controls.Add(this.dungeonLabel3);
+            this.panel1.Controls.Add(this.dungeonLabel2);
+            this.panel1.Controls.Add(this.dungeonLabel1);
             this.panel1.Controls.Add(this.parrotPictureBox1);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(385, 708);
             this.panel1.TabIndex = 2;
             // 
-            // panel2
+            // dungeonLabel3
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(385, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(783, 708);
-            this.panel2.TabIndex = 3;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.dungeonLabel3.AutoSize = true;
+            this.dungeonLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonLabel3.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dungeonLabel3.ForeColor = System.Drawing.Color.Black;
+            this.dungeonLabel3.Location = new System.Drawing.Point(153, 108);
+            this.dungeonLabel3.Name = "dungeonLabel3";
+            this.dungeonLabel3.Size = new System.Drawing.Size(58, 25);
+            this.dungeonLabel3.TabIndex = 4;
+            this.dungeonLabel3.Text = "Email";
+            // 
+            // dungeonLabel2
+            // 
+            this.dungeonLabel2.AutoSize = true;
+            this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonLabel2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dungeonLabel2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dungeonLabel2.Location = new System.Drawing.Point(153, 66);
+            this.dungeonLabel2.Name = "dungeonLabel2";
+            this.dungeonLabel2.Size = new System.Drawing.Size(71, 25);
+            this.dungeonLabel2.TabIndex = 3;
+            this.dungeonLabel2.Text = "Mobile";
+            // 
+            // dungeonLabel1
+            // 
+            this.dungeonLabel1.AutoSize = true;
+            this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.dungeonLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dungeonLabel1.Location = new System.Drawing.Point(153, 21);
+            this.dungeonLabel1.Name = "dungeonLabel1";
+            this.dungeonLabel1.Size = new System.Drawing.Size(62, 25);
+            this.dungeonLabel1.TabIndex = 2;
+            this.dungeonLabel1.Text = "Name";
             // 
             // Form_Employee_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(1168, 708);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -106,10 +138,11 @@
         }
 
         #endregion
-
-        private ReaLTaiizor.Controls.ParrotPictureBox parrotPictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private ReaLTaiizor.Controls.ParrotPictureBox parrotPictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel1;
+        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel3;
+        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
     }
 }

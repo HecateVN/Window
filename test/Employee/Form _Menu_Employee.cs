@@ -32,7 +32,18 @@ namespace test
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            if (UserInfo == null)
+            {
+                UserInfo = new Form_Employee_Info();
+                UserInfo.FormClosed += UserInfo_FormClosed;
+                UserInfo.MdiParent = this;
+                UserInfo.Dock = DockStyle.Fill;
+                UserInfo.Show();
+            }
+            else
+            {
+                UserInfo.Activate();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -55,7 +66,6 @@ namespace test
                 {
                     SideExpand = false;
                     Side_Transition.Stop();
-                    Employee_Picture.BackgroundImage = null;
                 }
             }
             else
@@ -65,7 +75,6 @@ namespace test
                 {
                     SideExpand = true;
                     Side_Transition.Stop();
-                    Employee_Picture.BackgroundImage = test.Properties.Resources.Screenshot_2024_03_14_090923;
                 }
             }
         }

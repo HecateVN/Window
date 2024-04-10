@@ -15,7 +15,7 @@ namespace test
     {
         login Btn_Login;
         Registration Btn_SignUp;
-
+        ForgotPassword Btn_ForgotPassword;
 
         public Start_App()
         {
@@ -78,6 +78,26 @@ namespace test
             Btn_SignUp = null;
         }
 
+        private void dungeonLinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (Btn_ForgotPassword == null)
+            {
+                Btn_ForgotPassword = new ForgotPassword();
+                Btn_ForgotPassword.FormClosed += ForgotPassword_FormClosed;
+                Btn_ForgotPassword.MdiParent = this;
+                Btn_ForgotPassword.Dock = DockStyle.Fill;
+                Btn_ForgotPassword.Show();
+            }
+            else
+            {
+                Btn_ForgotPassword.Activate();
+            }
+        }
+
+        private void ForgotPassword_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Btn_ForgotPassword = null;
+        }
 
     }
 }
