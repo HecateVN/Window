@@ -9,32 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using test.Employee;
 
-namespace test
+namespace test.Employer
 {
-    public partial class Home_User : System.Windows.Forms.Form
+    public partial class Form1 : Form
     {
-        Form_Employee_Info UserInfo;
-        Form_Job_Employee FindJob;
-        public Home_User()
+        Form_Employer_Info UserInfo;
+        Form_Employer_ManageJob ManageJob;
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Btn_UserInfo_Click(object sender, EventArgs e)
         {
             if (UserInfo == null)
             {
-                UserInfo = new Form_Employee_Info();
+                UserInfo = new Form_Employer_Info();
                 UserInfo.FormClosed += UserInfo_FormClosed;
                 UserInfo.MdiParent = this;
                 UserInfo.Dock = DockStyle.Fill;
@@ -44,16 +36,6 @@ namespace test
             {
                 UserInfo.Activate();
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         bool SideExpand = true;
@@ -84,11 +66,16 @@ namespace test
             Side_Transition.Start();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Btn_LogOut_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
             if (UserInfo == null)
             {
-                UserInfo = new Form_Employee_Info();
+                UserInfo = new Form_Employer_Info();
                 UserInfo.FormClosed += UserInfo_FormClosed;
                 UserInfo.MdiParent = this;
                 UserInfo.Dock = DockStyle.Fill;
@@ -99,7 +86,6 @@ namespace test
                 UserInfo.Activate();
             }
         }
-
         private void UserInfo_FormClosed(object sender, FormClosedEventArgs e)
         {
             UserInfo = null;
@@ -107,33 +93,22 @@ namespace test
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (FindJob == null)
+            if (ManageJob == null)
             {
-                FindJob = new Form_Job_Employee();
-                FindJob.FormClosed += FindJob_FormClosed;
-                FindJob.MdiParent = this;
-                FindJob.Dock = DockStyle.Fill;
-                FindJob.Show();
+                ManageJob = new Form_Employer_ManageJob();
+                ManageJob.FormClosed += ManageJob_FormClosed;
+                ManageJob.MdiParent = this;
+                ManageJob.Dock = DockStyle.Fill;
+                ManageJob.Show();
             }
             else
             {
-                FindJob.Activate();
+                ManageJob.Activate();
             }
         }
-
-        private void FindJob_FormClosed(object sender, FormClosedEventArgs e)
+        private void ManageJob_FormClosed(object sender, FormClosedEventArgs e)
         {
-            FindJob = null;
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Btn_LogOut_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            ManageJob = null;
         }
     }
 }

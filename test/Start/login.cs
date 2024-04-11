@@ -13,12 +13,12 @@ namespace test.Start
 {
     public partial class login : Form
     {
-        Home_User employee_menu;
+        Home_Employee employee_menu;
 
         public login()
         {
             InitializeComponent();
-            employee_menu = new Home_User();
+            employee_menu = new Home_Employee();
         }
 
         private void dungeonTextBox1_TextChanged(object sender, EventArgs e)

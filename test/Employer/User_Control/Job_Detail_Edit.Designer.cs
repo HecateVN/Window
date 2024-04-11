@@ -140,7 +140,7 @@
             this.smallTextBox1.CustomBGColor = System.Drawing.Color.White;
             this.smallTextBox1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.smallTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.smallTextBox1.Location = new System.Drawing.Point(224, 169);
+            this.smallTextBox1.Location = new System.Drawing.Point(225, 177);
             this.smallTextBox1.MaxLength = 32767;
             this.smallTextBox1.Multiline = false;
             this.smallTextBox1.Name = "smallTextBox1";
@@ -148,7 +148,6 @@
             this.smallTextBox1.Size = new System.Drawing.Size(197, 30);
             this.smallTextBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             this.smallTextBox1.TabIndex = 11;
-            this.smallTextBox1.Text = "smallTextBox1";
             this.smallTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.smallTextBox1.UseSystemPasswordChar = false;
             // 
@@ -159,7 +158,7 @@
             this.smallTextBox2.CustomBGColor = System.Drawing.Color.White;
             this.smallTextBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.smallTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.smallTextBox2.Location = new System.Drawing.Point(224, 220);
+            this.smallTextBox2.Location = new System.Drawing.Point(224, 227);
             this.smallTextBox2.MaxLength = 32767;
             this.smallTextBox2.Multiline = false;
             this.smallTextBox2.Name = "smallTextBox2";
@@ -167,7 +166,6 @@
             this.smallTextBox2.Size = new System.Drawing.Size(197, 30);
             this.smallTextBox2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             this.smallTextBox2.TabIndex = 12;
-            this.smallTextBox2.Text = "smallTextBox2";
             this.smallTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.smallTextBox2.UseSystemPasswordChar = false;
             this.smallTextBox2.TextChanged += new System.EventHandler(this.smallTextBox2_TextChanged);

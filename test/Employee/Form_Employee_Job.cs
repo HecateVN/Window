@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace test.Employee
 {
-    public partial class Form_Job_Employee : System.Windows.Forms.Form
+    public partial class Form_Employee_Job : System.Windows.Forms.Form
     {
-        public Form_Job_Employee()
+        public Form_Employee_Job()
         {
             InitializeComponent();
         }

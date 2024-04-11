@@ -1,6 +1,6 @@
 ﻿namespace test.Employee
 {
-    partial class Form_Job_Employee
+    partial class Form_Employee_Job
     {
         /// <summary>
         /// Required designer variable.

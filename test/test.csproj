@@ -56,23 +56,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee\Form_Job_Employee.cs">
+    <Compile Include="Employee\Form_Employee_Job.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form_Job_Employee.Designer.cs">
-      <DependentUpon>Form_Job_Employee.cs</DependentUpon>
+    <Compile Include="Employee\Form_Employee_Job.Designer.cs">
+      <DependentUpon>Form_Employee_Job.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee\Form _Menu_Employee.cs">
+    <Compile Include="Employee\Form_Employee_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee\Form _Menu_Employee.Designer.cs">
-      <DependentUpon>Form _Menu_Employee.cs</DependentUpon>
+    <Compile Include="Employee\Form_Employee_Menu.Designer.cs">
+      <DependentUpon>Form_Employee_Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee\Form_Employee_Info.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Employee\Form_Employee_Info.Designer.cs">
       <DependentUpon>Form_Employee_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_ManageJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_ManageJob.Designer.cs">
+      <DependentUpon>Form_Employer_ManageJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_Menu.Designer.cs">
+      <DependentUpon>Form_Employer_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employer\Form_Employer_Info.Designer.cs">
+      <DependentUpon>Form_Employer_Info.cs</DependentUpon>
     </Compile>
     <Compile Include="Employer\User_Control\Job_Detail_Edit.cs">
       <SubType>UserControl</SubType>
@@ -118,15 +136,24 @@
     <Compile Include="Employee\User_Control\Available_Job.Designer.cs">
       <DependentUpon>Available_Job.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Employee\Form_Job_Employee.resx">
-      <DependentUpon>Form_Job_Employee.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Form_Employee_Job.resx">
+      <DependentUpon>Form_Employee_Job.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee\Form _Menu_Employee.resx">
-      <DependentUpon>Form _Menu_Employee.cs</DependentUpon>
+    <EmbeddedResource Include="Employee\Form_Employee_Menu.resx">
+      <DependentUpon>Form_Employee_Menu.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Form_Employee_Info.resx">
       <DependentUpon>Form_Employee_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employer\Form_Employer_ManageJob.resx">
+      <DependentUpon>Form_Employer_ManageJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employer\Form_Employer_Menu.resx">
+      <DependentUpon>Form_Employer_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employer\Form_Employer_Info.resx">
+      <DependentUpon>Form_Employer_Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employer\User_Control\Job_Detail_Edit.resx">
       <DependentUpon>Job_Detail_Edit.cs</DependentUpon>
