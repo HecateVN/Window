@@ -39,8 +39,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.foxLabel1 = new ReaLTaiizor.Controls.FoxLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dungeonRichTextBox1 = new ReaLTaiizor.Controls.DungeonRichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,16 +154,6 @@
             this.label11.TabIndex = 30;
             this.label11.Text = "label11";
             // 
-            // foxLabel1
-            // 
-            this.foxLabel1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.foxLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.foxLabel1.Location = new System.Drawing.Point(45, 321);
-            this.foxLabel1.Name = "foxLabel1";
-            this.foxLabel1.Size = new System.Drawing.Size(465, 285);
-            this.foxLabel1.TabIndex = 31;
-            this.foxLabel1.Text = "foxLabel1";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(45, 40);
@@ -172,12 +162,29 @@
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
+            // dungeonRichTextBox1
+            // 
+            this.dungeonRichTextBox1.AutoWordSelection = false;
+            this.dungeonRichTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonRichTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.dungeonRichTextBox1.EdgeColor = System.Drawing.Color.White;
+            this.dungeonRichTextBox1.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.dungeonRichTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
+            this.dungeonRichTextBox1.Location = new System.Drawing.Point(45, 318);
+            this.dungeonRichTextBox1.Name = "dungeonRichTextBox1";
+            this.dungeonRichTextBox1.ReadOnly = true;
+            this.dungeonRichTextBox1.Size = new System.Drawing.Size(466, 310);
+            this.dungeonRichTextBox1.TabIndex = 31;
+            this.dungeonRichTextBox1.Text = "dungeonRichTextBox1";
+            this.dungeonRichTextBox1.TextBackColor = System.Drawing.Color.White;
+            this.dungeonRichTextBox1.WordWrap = true;
+            // 
             // Job_Detail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.Controls.Add(this.foxLabel1);
+            this.Controls.Add(this.dungeonRichTextBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -212,6 +219,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private ReaLTaiizor.Controls.FoxLabel foxLabel1;
+        private ReaLTaiizor.Controls.DungeonRichTextBox dungeonRichTextBox1;
     }
 }

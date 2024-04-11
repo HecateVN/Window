@@ -13,6 +13,7 @@ namespace test
 {
     public partial class Home_Employee : System.Windows.Forms.Form
     {
+        Start_App startApp;
         Form_Employee_Info UserInfo;
         Form_Employee_Job FindJob;
         public Home_Employee()
@@ -128,7 +129,9 @@ namespace test
 
         private void Btn_LogOut_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            startApp = new Start_App();
+            startApp.Show();
+            this.Close();
         }
     }
 }

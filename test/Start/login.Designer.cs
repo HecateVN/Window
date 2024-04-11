@@ -199,6 +199,7 @@
             this.airRadioButton2.TabIndex = 10;
             this.airRadioButton2.Text = "Employer";
             this.airRadioButton2.Transparent = false;
+            this.airRadioButton2.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton2_CheckedChanged);
             // 
             // login
             // 

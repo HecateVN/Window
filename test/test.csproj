@@ -104,6 +104,7 @@
     <Compile Include="Employee\User_Control\Job_Detail.Designer.cs">
       <DependentUpon>Job_Detail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\DB.cs" />
     <Compile Include="Start\ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>

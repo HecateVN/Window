@@ -36,5 +36,20 @@ namespace test
         {
 
         }
+
+        private void dungeonLinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void dungeonTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dungeonRichTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

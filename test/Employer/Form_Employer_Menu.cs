@@ -11,11 +11,12 @@ using test.Employee;
 
 namespace test.Employer
 {
-    public partial class Form1 : Form
+    public partial class Home_Employer : System.Windows.Forms.Form
     {
         Form_Employer_Info UserInfo;
         Form_Employer_ManageJob ManageJob;
-        public Form1()
+        Start_App startApp;
+        public Home_Employer()
         {
             InitializeComponent();
         }
@@ -68,7 +69,9 @@ namespace test.Employer
 
         private void Btn_LogOut_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            startApp = new Start_App();
+            startApp.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)

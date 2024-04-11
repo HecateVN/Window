@@ -115,7 +115,7 @@
             this.dungeonLabel1.TabIndex = 2;
             this.dungeonLabel1.Text = "Name";
             // 
-            // Form_Employer_info
+            // Form_Employer_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,7 +123,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form_Employer_info";
+            this.Name = "Form_Employer_Info";
             this.Text = "Form_Employer_info";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

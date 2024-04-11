@@ -64,6 +64,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Create Account";
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dungeonHeaderLabel2
             // 
@@ -243,6 +244,7 @@
             this.airRadioButton2.TabIndex = 23;
             this.airRadioButton2.Text = "Employer";
             this.airRadioButton2.Transparent = false;
+            this.airRadioButton2.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton2_CheckedChanged);
             // 
             // dungeonHeaderLabel3
             // 
@@ -273,6 +275,7 @@
             this.airRadioButton1.TabIndex = 21;
             this.airRadioButton1.Text = "Employee";
             this.airRadioButton1.Transparent = false;
+            this.airRadioButton1.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton1_CheckedChanged);
             // 
             // Registration
             // 
