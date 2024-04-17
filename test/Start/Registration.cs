@@ -102,5 +102,10 @@ namespace test.Start
             aloneComboBox1.SelectedIndex = -1;
 
         }
+
+        private void dungeonTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using test.Model;
 
 namespace test.Employee
 {
@@ -44,6 +45,24 @@ namespace test.Employee
 
         private void airButton1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+          
+            
+        }
+
+        private void poisonDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void poisonDataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+           
 
         }
     }

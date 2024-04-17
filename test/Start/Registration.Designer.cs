@@ -75,7 +75,7 @@
             this.dungeonHeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel2.Location = new System.Drawing.Point(8, 185);
             this.dungeonHeaderLabel2.Name = "dungeonHeaderLabel2";
-            this.dungeonHeaderLabel2.Size = new System.Drawing.Size(115, 26);
+            this.dungeonHeaderLabel2.Size = new System.Drawing.Size(92, 22);
             this.dungeonHeaderLabel2.TabIndex = 10;
             this.dungeonHeaderLabel2.Text = "Username";
             // 
@@ -92,10 +92,11 @@
             this.dungeonTextBox1.Multiline = false;
             this.dungeonTextBox1.Name = "dungeonTextBox1";
             this.dungeonTextBox1.ReadOnly = false;
-            this.dungeonTextBox1.Size = new System.Drawing.Size(225, 37);
+            this.dungeonTextBox1.Size = new System.Drawing.Size(225, 31);
             this.dungeonTextBox1.TabIndex = 8;
             this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox1.UseSystemPasswordChar = false;
+            this.dungeonTextBox1.TextChanged += new System.EventHandler(this.dungeonTextBox1_TextChanged);
             // 
             // dungeonHeaderLabel1
             // 
@@ -106,7 +107,7 @@
             this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel1.Location = new System.Drawing.Point(126, 48);
             this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
-            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(129, 37);
+            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(107, 31);
             this.dungeonHeaderLabel1.TabIndex = 7;
             this.dungeonHeaderLabel1.Text = "Sign Up";
             // 
@@ -119,7 +120,7 @@
             this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel4.Location = new System.Drawing.Point(8, 252);
             this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
-            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(73, 26);
+            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(58, 22);
             this.dungeonHeaderLabel4.TabIndex = 14;
             this.dungeonHeaderLabel4.Text = "Email";
             // 
@@ -136,7 +137,7 @@
             this.dungeonTextBox3.Multiline = false;
             this.dungeonTextBox3.Name = "dungeonTextBox3";
             this.dungeonTextBox3.ReadOnly = false;
-            this.dungeonTextBox3.Size = new System.Drawing.Size(225, 37);
+            this.dungeonTextBox3.Size = new System.Drawing.Size(225, 31);
             this.dungeonTextBox3.TabIndex = 13;
             this.dungeonTextBox3.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox3.UseSystemPasswordChar = false;
@@ -150,7 +151,7 @@
             this.dungeonHeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel5.Location = new System.Drawing.Point(8, 320);
             this.dungeonHeaderLabel5.Name = "dungeonHeaderLabel5";
-            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(89, 26);
+            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(71, 22);
             this.dungeonHeaderLabel5.TabIndex = 16;
             this.dungeonHeaderLabel5.Text = "Gender";
             // 
@@ -167,7 +168,7 @@
             this.dungeonTextBox4.Multiline = false;
             this.dungeonTextBox4.Name = "dungeonTextBox4";
             this.dungeonTextBox4.ReadOnly = false;
-            this.dungeonTextBox4.Size = new System.Drawing.Size(225, 37);
+            this.dungeonTextBox4.Size = new System.Drawing.Size(225, 31);
             this.dungeonTextBox4.TabIndex = 15;
             this.dungeonTextBox4.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.dungeonTextBox4.UseSystemPasswordChar = false;
@@ -181,7 +182,7 @@
             this.dungeonHeaderLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel6.Location = new System.Drawing.Point(8, 387);
             this.dungeonHeaderLabel6.Name = "dungeonHeaderLabel6";
-            this.dungeonHeaderLabel6.Size = new System.Drawing.Size(110, 26);
+            this.dungeonHeaderLabel6.Size = new System.Drawing.Size(90, 22);
             this.dungeonHeaderLabel6.TabIndex = 17;
             this.dungeonHeaderLabel6.Text = "Password";
             // 
@@ -255,7 +256,7 @@
             this.dungeonHeaderLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel3.Location = new System.Drawing.Point(8, 119);
             this.dungeonHeaderLabel3.Name = "dungeonHeaderLabel3";
-            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(59, 26);
+            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(48, 22);
             this.dungeonHeaderLabel3.TabIndex = 22;
             this.dungeonHeaderLabel3.Text = "Role";
             // 
