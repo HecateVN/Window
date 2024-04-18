@@ -16,5 +16,15 @@ namespace test.Employer
         {
             InitializeComponent();
         }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form_Employer_ManageJob_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

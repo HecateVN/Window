@@ -38,6 +38,7 @@
             this.airRadioButton1 = new ReaLTaiizor.Controls.AirRadioButton();
             this.dungeonHeaderLabel4 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.airRadioButton2 = new ReaLTaiizor.Controls.AirRadioButton();
+            this.button2 = new ReaLTaiizor.Controls.Button();
             this.SuspendLayout();
             // 
             // dungeonHeaderLabel1
@@ -201,6 +202,27 @@
             this.airRadioButton2.Transparent = false;
             this.airRadioButton2.CheckedChanged += new ReaLTaiizor.Controls.AirRadioButton.CheckedChangedEventHandler(this.airRadioButton2_CheckedChanged);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.EnteredBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button2.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.Image = null;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.button2.Location = new System.Drawing.Point(129, 515);
+            this.button2.Name = "button2";
+            this.button2.PressedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.button2.Size = new System.Drawing.Size(120, 40);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Test";
+            this.button2.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -208,6 +230,7 @@
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(380, 583);
             this.ControlBox = false;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.airRadioButton2);
             this.Controls.Add(this.dungeonHeaderLabel4);
             this.Controls.Add(this.airRadioButton1);
@@ -239,5 +262,6 @@
         private ReaLTaiizor.Controls.AirRadioButton airRadioButton1;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel4;
         private ReaLTaiizor.Controls.AirRadioButton airRadioButton2;
+        private ReaLTaiizor.Controls.Button button2;
     }
 }

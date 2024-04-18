@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using test.Employee;
+using test.Employer;
 
 namespace test.Employer
 {
@@ -21,23 +21,6 @@ namespace test.Employer
             InitializeComponent();
         }
 
-
-
-        private void Btn_UserInfo_Click(object sender, EventArgs e)
-        {
-            if (UserInfo == null)
-            {
-                UserInfo = new Form_Employer_Info();
-                UserInfo.FormClosed += UserInfo_FormClosed;
-                UserInfo.MdiParent = this;
-                UserInfo.Dock = DockStyle.Fill;
-                UserInfo.Show();
-            }
-            else
-            {
-                UserInfo.Activate();
-            }
-        }
 
         bool SideExpand = true;
         private void Side_Transition_Tick(object sender, EventArgs e)
@@ -67,13 +50,6 @@ namespace test.Employer
             Side_Transition.Start();
         }
 
-        private void Btn_LogOut_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            startApp = new Start_App();
-            startApp.Show();
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             if (UserInfo == null)
@@ -94,7 +70,40 @@ namespace test.Employer
             UserInfo = null;
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void ManageJob_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ManageJob = null;
+        }
+
+        private void SideBar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Btn_UserInfo_Click_1(object sender, EventArgs e)
+        {
+            if (UserInfo == null)
+            {
+                UserInfo = new Form_Employer_Info();
+                UserInfo.FormClosed += UserInfo_FormClosed;
+                UserInfo.MdiParent = this;
+                UserInfo.Dock = DockStyle.Fill;
+                UserInfo.Show();
+            }
+            else
+            {
+                UserInfo.Activate();
+            }
+        }
+
+        private void Btn_LogOut_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            startApp = new Start_App();
+            startApp.Show();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
         {
             if (ManageJob == null)
             {
@@ -108,10 +117,6 @@ namespace test.Employer
             {
                 ManageJob.Activate();
             }
-        }
-        private void ManageJob_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            ManageJob = null;
         }
     }
 }

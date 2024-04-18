@@ -76,17 +76,18 @@ namespace test.Start
                             // Gán giá trị ID vào biến userID trong class Global
                             string usernames = table.Rows[0]["Username"].ToString();
                             // Mở ứng dụng nếu đúng username và pass
-                            start_app.Close();
+
                             employee_menu.Show();
                         }
                         else
                         {
-                            
+                            MessageBox.Show("Invalid login details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             return;
                         }
                     }
 
                 }
+
                 if (isEmployerChecked == true)
                 {
                     SqlCommand command = new SqlCommand("SELECT * FROM Employer WHERE Username = @User AND Password = @Pass", mydb.getConnection);
@@ -102,25 +103,25 @@ namespace test.Start
                         {
                             string userID = table.Rows[0]["EmployerID"].ToString();
                             string usernames = table.Rows[0]["Username"].ToString();
-                            start_app.Close();
+
                             employer_menu.Show();
                         }
                         else
                         {
-                            
+
                             return;
                         }
                     }
-                }
+                    else
+                    {
 
-                else
-                {
-                    
-                    return;
+                        return;
+                    }
                 }
             }
             catch
             {
+                MessageBox.Show("error", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
         }
@@ -137,12 +138,17 @@ namespace test.Start
 
         private void login_Load(object sender, EventArgs e)
         {
-
+            airRadioButton1.Checked = true;
         }
 
         private void airRadioButton2_CheckedChanged(object sender)
         {
             isEmployerChecked = airRadioButton2.Checked;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            employer_menu.Show();
         }
     }
 }

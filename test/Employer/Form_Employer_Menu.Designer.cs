@@ -34,6 +34,7 @@
             this.Username = new System.Windows.Forms.Label();
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.SideBar_Control = new System.Windows.Forms.PictureBox();
+            this.Side_Transition = new System.Windows.Forms.Timer(this.components);
             this.SideBar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Btn_UserInfo = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.Btn_LogOut = new System.Windows.Forms.Button();
-            this.Side_Transition = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SideBar_Control)).BeginInit();
             this.SideBar.SuspendLayout();
@@ -107,17 +107,24 @@
             this.SideBar_Control.TabStop = false;
             this.SideBar_Control.Click += new System.EventHandler(this.SideBar_Control_Click);
             // 
+            // Side_Transition
+            // 
+            this.Side_Transition.Interval = 10;
+            this.Side_Transition.Tick += new System.EventHandler(this.Side_Transition_Tick);
+            // 
             // SideBar
             // 
             this.SideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(213)))));
             this.SideBar.Controls.Add(this.panel2);
             this.SideBar.Controls.Add(this.panel7);
             this.SideBar.Controls.Add(this.panel8);
+            this.SideBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideBar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.SideBar.Location = new System.Drawing.Point(0, 51);
             this.SideBar.Name = "SideBar";
             this.SideBar.Size = new System.Drawing.Size(170, 659);
-            this.SideBar.TabIndex = 3;
+            this.SideBar.TabIndex = 5;
+            this.SideBar.Paint += new System.Windows.Forms.PaintEventHandler(this.SideBar_Paint);
             // 
             // panel2
             // 
@@ -145,7 +152,7 @@
             this.Btn_UserInfo.Text = "          User Info";
             this.Btn_UserInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_UserInfo.UseVisualStyleBackColor = false;
-            this.Btn_UserInfo.Click += new System.EventHandler(this.Btn_UserInfo_Click);
+            this.Btn_UserInfo.Click += new System.EventHandler(this.Btn_UserInfo_Click_1);
             // 
             // panel7
             // 
@@ -171,7 +178,7 @@
             this.button6.Text = "          Manage Job";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // panel8
             // 
@@ -197,23 +204,18 @@
             this.Btn_LogOut.Text = "          LogOut";
             this.Btn_LogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_LogOut.UseVisualStyleBackColor = false;
-            this.Btn_LogOut.Click += new System.EventHandler(this.Btn_LogOut_Click);
-            // 
-            // Side_Transition
-            // 
-            this.Side_Transition.Interval = 10;
-            this.Side_Transition.Tick += new System.EventHandler(this.Side_Transition_Tick);
+            this.Btn_LogOut.Click += new System.EventHandler(this.Btn_LogOut_Click_1);
             // 
             // Home_Employer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1170, 710);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.SideBar);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.Name = "Home_Employer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -233,6 +235,7 @@
         private System.Windows.Forms.Label Username;
         private ReaLTaiizor.Controls.NightControlBox nightControlBox1;
         private System.Windows.Forms.PictureBox SideBar_Control;
+        private System.Windows.Forms.Timer Side_Transition;
         private System.Windows.Forms.FlowLayoutPanel SideBar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button Btn_UserInfo;
@@ -240,6 +243,5 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button Btn_LogOut;
-        private System.Windows.Forms.Timer Side_Transition;
     }
 }
